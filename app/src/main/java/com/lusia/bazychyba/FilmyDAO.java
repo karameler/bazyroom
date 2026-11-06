@@ -13,7 +13,8 @@ public interface FilmyDAO {
     @Insert
     public void wstawDoBazyFilm(Film film);
 
-    public  void wstawListeFilmowDoBazy(Film ... film);
+    @Insert
+    public void wstawListeFilmowDoBazy(Film ... film);
     @Delete
     public  void usunZBazy(Film film);
     @Update

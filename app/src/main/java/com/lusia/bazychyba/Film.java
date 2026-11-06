@@ -50,4 +50,7 @@ public class Film {
     public void setRokprodukcji(int rokprodukcji) {
         this.rokprodukcji = rokprodukcji;
     }
+
+    public Film() {
+    }
 }
